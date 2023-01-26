@@ -1,0 +1,23 @@
+@import url(./styles/cabecalho.css);
+@import url(./styles/pesquisa.css);
+@import url(./styles/carrosel.css);
+@import url(./styles/newsletter.css);
+@import url(./styles/rodape.css);
+
+:root{
+
+    --fonte: "Saira Condensed";
+    --branco: #FFFFFF;
+    --preto: #1B1919;
+    --vermelho: #B40D17;
+    --azul-claro: #03989E;
+    --verde: #057474;
+}
+
+body{
+
+    font-size: 16px;
+    font-family: var(--fonte);
+    font-weight: 400;
+    background-image: url(./img/background.png);
+}

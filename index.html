@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineArt</title>
+    <link rel="stylesheet" href="./reset.css"> 
+    <link rel="shortcut icon" href="./img/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Changa:wght@200&family=Inter:wght@400;700&family=Josefin+Sans:wght@400;700&family=Poppins:wght@300;400;700;900&family=Saira+Condensed:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h2 class="cabecalho__logo__titulo"><img src="./img/logo.svg"><b class="cabecalho__titulo__negrito">Cine</b>Art</h2>
+        <div class="container__cabecalho">
+            <input type="checkbox" id="menu" class="botao__menu__hamburguer">
+            <label for="menu" class="menu__hamburguer__rotulo">
+            <span class="menu__hamburguer__cabecalho"></span>
+            </label>
+            <ul class="lista__opcoes__menu__hamburguer">
+                <li class="lista__opcoes__item"><p class="lista__opcoes__titulo">Categorias</p></li>
+                <li class="lista__opcoes__item"><a href="#" class="lista__opcoes__links">Programação</a></li>
+                <li class="lista__opcoes__item"><a href="#" class="lista__opcoes__links">Alimentação</a></li>
+                <li class="lista__opcoes__item"><a href="#" class="lista__opcoes__links">Clube CineArt</a></li>
+                <li class="lista__opcoes__item"><a href="#" class="lista__opcoes__links">Ingressos Online</a></li>
+            </ul>    
+
+        </div>
+
+        <img src="./img/logo.svg" alt="logo do menu" class="cabecalho__imagem__logo">
+
+            <ul class="cabecalho__opcoes__lista">
+
+                <input type="checkbox" id="opcoes__menu" class="container__menu__opcoes">
+                <label for="opcoes__menu" class="container__opcoes"> 
+                <li class="cabecalho__opcoes__itens cabecalho__opcoes__cor">Categorias</a></li>
+                </label>
+                <ul class="lista__menu__opcoes">
+                    <li class="lista__menu--opcoes__item"><a href="#" class="lista__menu--opcoes__links">Programação</a></li>
+                    <li class="lista__menu--opcoes__item"><a href="#" class="lista__menu--opcoes__links">Alimentação</a></li>
+                    <li class="lista__menu--opcoes__item"><a href="#" class="lista__menu--opcoes__links">Clube CineArt</a></li>
+                    <li class="lista__menu--opcoes__item"><a href="#" class="lista__menu--opcoes__links">Parcerias</a></li>
+                    <li class="lista__menu--opcoes__item"><a href="#" class="lista__menu--opcoes__links">Ingressos Online</a></li>
+                </ul>
+                <li class="cabecalho__opcoes__itens"><a href="#" class="cabecalho__opcoes__link cabecalho__opcoes__cor">Comunidade</a></li>
+                <li class="cabecalho__opcoes__itens"><a href="#" class="cabecalho__opcoes__link cabecalho__opcoes__cor">Sobre nós</a></li>
+
+            </ul>
+
+        <div class="container__cabecalho__secundario">
+            <a href="#">
+                <img src="./img/carrinho de compras.svg" class="container__imagem" alt="Carrinhos de compras do AluraBooks"></a>
+                <p class="container__texto">Minha Sacola</p>
+            <a href="#">
+                <img src="./img/perfil.svg" class="container__imagem" alt="Perfis do AluraBooks"></a>
+                <p class="container__texto">Meu perfil</p>
+        </div>
+    </header>
+
+    <section class="pesquisa"> 
+        <div class="container__pesquisa">
+            <h2 class="container__pesquisa__titulo">Está afim de pegar um cineminha?</h2>
+            <h3 class="container__pesquisa__subtitulo">Aqui você pode achar nossas salas de cinema mais perto de você</h3>
+            <p class="container__pesquisa__texto">Basta procurar aqui</p>
+            <form>
+            <input type="search" id="pesquisa" class="container__caixa__pesquisa" placeholder="Digite seu cep. Ex: 44000-000">
+            <label for="menu">
+            </label>
+        </form>
+        </div>
+        
+    </section>
+
+
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Em exibição</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><a href="#"><img src="./img/avatar.svg" alt="poster avatar"></a></div>
+      <div class="swiper-slide"><a href="#"><img src="./img/aftersun.svg" alt="poster aftersun"></a></div>
+      <div class="swiper-slide"><a href="#"> <img src="./img/gatodebotas.svg" alt="poster gato de botas"></a></div>
+      <div class="swiper-slide"><a href="#"> <img src="./img/nas ondas da fé1.svg" alt="poster nas ondas da fé"></a></div>
+      <div class="swiper-slide"><a href="#"> <img src="./img/pantera negra 1.svg" alt="poster pantera negra"></a></div>
+      <div class="swiper-slide"><a href="#"> <img src="./img/pearl.svg" alt="poster pearl"></a></div>
+    </div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+
+    <div class="container__cartao">
+        <div class="cartao__descricao">
+            <img src="./img/avatar.svg" class="descricao__imagem" alt="poster avatar">
+        <div class="descricao">
+            <h2 class="descricao__titulo">Filme mais assistido:</h2>
+            <h3 class="descricao__subtitulo">Avatar 2: O Caminho da Água</h3>
+            <p class="descricao__texto">Direção: James Cameron</p>
+            <p class="descricao__texto">Elenco: Sam Worthington, Zoe Saldana, Sigourney Weaver, Stephen Lang</p>
+            <p class="descricao__texto">IMDB: 7.9 </p>
+        </div>
+        </div>
+
+        <div class="cartao__botao">
+            <a href="#" class="botao__link">Saiba mais</a>
+        <div class="cartao__botoes">
+            <ul class="cartao__botoes--lista">
+                <li class="cartao__botoes--item"><a href="#"><img src="./img/carrinho de compras.svg" alt="carrinho de compras" class="cartao__botoes--img"></a></li>
+                <li class="cartao__botoes--item"><a href="#"><img src="./img/favoritos.svg" alt="favoritos" class="cartao__botoes--img"></a></li>
+            </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+    
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Proximos lançamentos</h2>
+        <!-- Slider main container -->
+<div class="swiper">
+     <!-- If we need pagination -->
+     <div class="swiper-pagination"></div>
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide"><a href="#"><img src="./img/homemformiga.svg" alt="poster homem formiga"></a></div>
+      <div class="swiper-slide"><a href="#"> <img src="./img/johnwick.svg" alt="poster john wick"></a></div>
+      <div class="swiper-slide"><a href="#"> <img src="./img/aranhaverso.svg" alt="poster aranhaverso"></a></div>
+      <div class="swiper-slide"><a href="#"> <img src="./img/mario.svg" alt="poster mario"></a></div>
+      <div class="swiper-slide"><a href="#"> <img src="./img/creed3.svg" alt="poster creed 3"></a></div>
+    </div>
+    <!-- If we need navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+
+    <div class="container__cartao">
+        <div class="cartao__descricao_sec">
+            <img src="./img/mario.svg" class="descricao__imagem" alt="poster aranhaverso">
+        <div class="descricao">
+            <h2 class="descricao__titulo">Mais aguardado:</h2>
+            <h3 class="descricao__subtitulo">Super Mario Bros. O Filme</h3>
+            <p class="descricao__texto">Direção: Aaron Horvath, Michael Jelenic</p>
+            <p class="descricao__texto">Elenco: Chris Pratt, Anya Taylor-joy, Jack Black, Charlie Day</p> 
+        </div>
+        </div>
+
+        <div class="cartao__botao__sec">
+            <a href="#" class="botao__link__sec">Mais informações</a>
+     </div>
+    </div>
+  </div>
+    </section>
+
+    <section class="newsletter">
+        
+            <h2 class="newsletter__titulo">Newsletter</h2>
+            <div class="container__newsletter">
+            <p class="newsletter__texto">Inscreva-se e tenha acesso às últimas notícias, eventos, promoções e iniciativas da CineArt disponíveis no seu e-mail.</p>
+            <form class="container__email">
+            <input type="email" id="email" placeholder="Email: exemplo@mail.com" class="newsletter__input">
+            </form>  
+            </div>
+            
+            
+        
+            
+        
+    </section>
+<hr />
+    <footer class="rodape">
+
+        <div class="rodape__copyrigth">
+        <img src="./img/logo.svg" alt="logo do rodapé" class="rodape__imagem">
+        <h3 class="rodape__descricao">&#169 Copyright CineArt </h3>
+        <p class="rodape__texto">Desde de 1998</p>
+        </div>
+
+        <div class="listas__rodape">
+        <ul class="lista__rodape__tags">
+            <li class="lista__rodape__titulo">Filmes</li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">Programação</a></li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">Em cartaz</a></li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">Em breve</a></li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">Ingressos</a></li>
+        </ul>
+
+        <ul class="lista__rodape__tags">
+            <li class="lista__rodape__titulo">Salas</li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">Real 3D</a></li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">XD</a></li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">D-box</a></li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">Movie Bistrô</a></li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">Aluguel de Salas</a></li>
+        </ul>
+
+        <ul class="lista__rodape__tags">
+            <li class="lista__rodape__titulo">CineArt</li>
+            <li class="lista__rodape__itens"><a  href="#" class="lista__rodape__links">Institucional</a></li>
+            <li class="lista__rodape__itens"><a  href="#" class="lista__rodape__links">Anuncie</a></li>
+            <li class="lista__rodape__itens"><a  href="#" class="lista__rodape__links">D-box</a></li>
+            <li class="lista__rodape__itens"><a  href="#" class="lista__rodape__links">Imprensa</a></li>
+            <li class="lista__rodape__itens"><a  href="#" class="lista__rodape__links">Trabalhe conosco</a></li>
+        </ul>
+
+        
+        <ul class="lista__rodape__tags">
+            <li class="lista__rodape__titulo">Acessibilidade</li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">Sobre</a></li>
+            <li class="lista__rodape__itens"><a href="#" class="lista__rodape__links">Movie Reading</a></li>
+        </ul>
+        </div>
+
+        <div class="rodape__contato">
+            <ul class="lista__rodape__contatos">
+                <li class="rodape__contato__item">
+                    <img src="./img/instagram.svg" alt="logo instagram" class="rodape__contato__imagem">
+                    <a href="#" class="rodape__contato__link">@Cineart</a>
+                </li>
+                <li class="rodape__contato__item">
+                    <img src="./img/twitter.svg" alt="logo twitter" class="rodape__contato__imagem">
+                    <a href="#" class="rodape__contato__link">@Cineart</a>
+                </li>
+                <li class="rodape__contato__item">
+                    <img src="./img/facebook.svg" alt="logo facebook" class="rodape__contato__imagem">
+                    <a href="#" class="rodape__contato__link">CineArt</a>
+                </li>
+                <li class="rodape__contato__item">
+                    <img src="./img/youtube.svg" alt="logo youtube" class="rodape__contato__imagem">
+                    <a href="#" class="rodape__contato__link">CineArt</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="rodape__copyrigth1">
+            <img src="./img/logo.svg" alt="logo do rodapé" class="rodape__imagem">
+            <h3 class="rodape__descricao">&#169 Copyright CineArt </h3>
+            <p class="rodape__texto">Desde de 1998</p>
+            </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        
+     const swiper = new Swiper('.swiper', {
+  // Default parameters
+  slidesPerView: 3,
+  spaceBetween: 50,
+
+  pagination: {
+    el: '.swiper-pagination',
+    type: 'bullets',
+  },
+
+   navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+});
+    
+
+
+    </script>
+    
+</body>
+</html>
